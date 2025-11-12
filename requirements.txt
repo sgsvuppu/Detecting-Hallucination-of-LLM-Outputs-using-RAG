@@ -1,0 +1,40 @@
+# ===============================
+# Core Frameworks
+# ===============================
+streamlit==1.38.0
+python-dotenv==1.0.1
+
+# ===============================
+# Language Models & Transformers
+# ===============================
+transformers==4.44.2
+sentence-transformers==3.0.1
+datasets==2.21.0
+torch>=2.1.0
+
+# ===============================
+# Google Gemini & OpenAI Clients
+# ===============================
+google-generativeai>=0.5.0
+openai==1.35.10
+
+# ===============================
+# Data Handling & Evaluation
+# ===============================
+pandas==2.2.2
+numpy>=1.26.4
+scikit-learn==1.5.2
+matplotlib==3.8.4
+tqdm==4.66.5
+
+# ===============================
+# Retrieval & Knowledge Sources
+# ===============================
+wikipedia==1.4.0
+rank-bm25==0.2.2
+requests>=2.31.0
+
+# ===============================
+# Optional (for better performance)
+# ===============================
+watchdog>=4.0.1   # live-reload in Streamlit

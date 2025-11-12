@@ -1,0 +1,10 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      { "name": "Run Streamlit (full)", "type": "debugpy", "request": "launch",
+        "program": "${workspaceFolder}/.venv/bin/streamlit", "args": ["run", "streamlit_app_full.py"], "console": "integratedTerminal" },
+      { "name": "Eval 50 (local)", "type": "debugpy", "request": "launch",
+        "program": "${workspaceFolder}/eval_truthfulqa_full.py", "args": ["--limit","50"], "console": "integratedTerminal" }
+    ]
+  }
+  
