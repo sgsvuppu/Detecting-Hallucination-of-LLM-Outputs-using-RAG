@@ -42,6 +42,18 @@ How It Works
 Encoding: The Verifier class uses the sentence-transformers/all-MiniLM-L6-v2 model to encode both the model's output (answer) and the retrieved context (context) into dense vector representations.
 Cosine Similarity: The encoded vectors are compared using cosine similarity to measure their closeness.
 Threshold-Based Classification: If the similarity score is greater than or equal to the specified threshold (default: 0.72), the output is classified as "Factual." Otherwise, it is classified as "Hallucinated."
-License
 
+Acknowledgments
+Sentence Transformers for providing pre-trained models.
+The open-source community for their contributions to NLP research.
+
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
+
+
+---
+
+### **What You Need to Do**
+1. Replace the GitHub repository URL in the `git clone` command with your actual repository URL.
+2. Add a [requirements.txt](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fsaisrivastav%2FDesktop%2Frag-hallucination-demo%2Frequirements.txt%22%2C%22path%22%3A%22%2FUsers%2Fsaisrivastav%2FDesktop%2Frag-hallucination-demo%2Frequirements.txt%22%2C%22scheme%22%3A%22file%22%7D%7D) file to your project if it doesn’t already exist. It should include the dependencies, e.g.:
 
